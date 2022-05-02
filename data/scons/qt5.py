@@ -372,23 +372,23 @@ def enable_modules(self, modules, debug=False, crosscompiling=False) :
         import sys
 
         validModules = [
-                'QtCore',
-                'QtGui',
-                'QtWidgets',
-                'QtOpenGL',
+                'Qt5Core',
+                'Qt5Gui',
+                'Qt5Widgets',
+                'Qt5OpenGL',
                 'Qt3Support',
                 'QtAssistant', # deprecated
                 'QtAssistantClient',
                 'QtScript',
-                'QtDBus',
+                'Qt5DBus',
                 'QtSql',
                 'QtSvg',
                 # The next modules have not been tested yet so, please
                 # maybe they require additional work on non Linux platforms
-                'QtNetwork',
-                'QtTest',
-                'QtXml',
-                'QtXmlPatterns',
+                'Qt5Network',
+                'Qt5Test',
+                'Qt5Xml',
+                'Qt5XmlPatterns',
                 'QtUiTools',
                 'QtDesigner',
                 'QtDesignerComponents',
